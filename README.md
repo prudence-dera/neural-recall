@@ -1,18 +1,15 @@
-# Neural Recall — AI Study Studio
+# Neural Recall 🧠
 
-Interactive browser-based study app built with HTML, Tailwind CSS and vanilla JavaScript.
+A colorful, browser-based study app with chapter summaries, guided study, spaced-repetition flashcards, coding challenges, and an interactive course checklist.
 
-## Features
-- Flashcards and spaced repetition
-- Study notes and guided study mode
-- Chapter Summaries & Key Concepts for Chapters 1–12
-- Coding challenges and concept visualizers
-- Progress and personal notes saved in local browser storage
+## Course checklist
 
-## Deployment
-Upload `index.html` at your GitHub repository root and enable Pages from `main` / `(root)`.
+Open **Course Plan** to mark weekly assignments complete, view progress, and uncheck tasks if needed. All checklist state is stored in your browser using `localStorage`. It does **not** submit work to Canvas or synchronize across devices. Syllabus due days are relative; confirm actual dates in Canvas.
 
-**Reference:** Han, J., Pei, J., & Tong, H. (2022). *Data Mining: Concepts and Techniques* (4th ed.). Elsevier. Study summaries reflect supplied course lectures rather than full textbook text.
+## Publish
 
-## Flashcard filtering update
-Choose a week from the left and use **Concepts** (default) for lecture-based flashcards; **Course schedule** shows assignment/due-date reminders separately. Review progress remains in browser localStorage under the same key.
+Upload `index.html` and `README.md` to your existing GitHub repository's `main` branch. GitHub Pages serves `index.html` from `/ (root)`.
+
+## Stack
+
+HTML5, Tailwind CSS, JavaScript, localStorage. No build step. Some dependencies require an internet connection.
