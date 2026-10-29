@@ -1,27 +1,15 @@
-# Neural Recall 🧠
+# Neural Recall — AI Study Studio
 
-An interactive study companion designed for students learning data mining, AI, mathematics, and programming.
+Interactive browser-based study app built with HTML, Tailwind CSS and vanilla JavaScript.
 
 ## Features
-- Course-organized flashcards with spaced repetition
-- Guided Study Mode with active recall
-- Study notes and textbook chapter references
-- Python/NumPy/PyTorch coding challenges
-- Concept visualizations
-- Browser-local progress and notes
-- Colorful dark-mode interface
+- Flashcards and spaced repetition
+- Study notes and guided study mode
+- Chapter Summaries & Key Concepts for Chapters 1–12
+- Coding challenges and concept visualizers
+- Progress and personal notes saved in local browser storage
 
-## Run locally
-Open `index.html` in a modern browser. No build step required. Some styles or import libraries may require internet access.
+## Deployment
+Upload `index.html` at your GitHub repository root and enable Pages from `main` / `(root)`.
 
-## Deploy on GitHub Pages
-In repository **Settings → Pages**, select **Deploy from a branch**, branch `main`, folder `/ (root)` and save.
-
-## Tech
-HTML, Tailwind CSS, vanilla JavaScript, browser localStorage.
-
-## Course material
-The initial demo is organized around ARIN 5307 Data Mining/Big Data Analytics and includes study notes aligned with course lectures and Han, Pei & Tong (2022), *Data Mining: Concepts and Techniques* (4th ed.). It does not reproduce the textbook.
-
-## Notes
-This version runs in the browser and stores study progress locally per origin. Browser storage from a local file does not automatically transfer to a GitHub Pages deployment. It is not a multi-user backend or live AI grading service.
+**Reference:** Han, J., Pei, J., & Tong, H. (2022). *Data Mining: Concepts and Techniques* (4th ed.). Elsevier. Study summaries reflect supplied course lectures rather than full textbook text.
